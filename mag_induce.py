@@ -95,8 +95,12 @@ $$
 - $A$ is the area of the loop,  
 - $\theta$ is the angle between the magnetic field and the normal (perpendicular) to the loop's surface.
     """, unsafe_allow_html=True)
-    st.image("data/figs/magnetic-flux.png", caption="Magnetic Flux: Magnetic field (green arrows) going through surfaces (salmon) with various normal vectors (red).", use_container_width=True)
-    
+    st.image("data/figs/magnetic-flux.png", 
+             caption=("Magnetic Flux: The magnetic field (<span style='color:green;'>green arrows</span>) passes through "
+                      "surfaces (<span style='color:salmon;'>salmon-colored areas</span>) with the surface normals indicated "
+                      "in <span style='color:red;'>red</span>."), 
+             use_container_width=True)
+
     st.markdown(r"""**Lenz's Law**  
 Lenz’s Law states that the induced current will flow in such a direction that its magnetic field opposes the change in the magnetic flux that produced it. This is why the negative sign appears in Faraday’s Law.
     """, unsafe_allow_html=True)
