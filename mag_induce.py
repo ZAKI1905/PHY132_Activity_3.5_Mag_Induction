@@ -65,7 +65,7 @@ This formula demonstrates that the field inside the solenoid increases with both
     """, unsafe_allow_html=True)
 
 
-     st.header("Electromagnetic Induction")
+    st.header("Electromagnetic Induction")
     st.markdown(r"""**Faraday’s Law of Induction**  
 When the magnetic flux through a circuit changes, an electromotive force (EMF) is induced in the circuit. This is given by:""")
     st.markdown(r"""
