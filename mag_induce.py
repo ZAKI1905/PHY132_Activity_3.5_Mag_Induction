@@ -136,12 +136,10 @@ This force is always directed toward the center of the circle.
 Ohm's Law states that the voltage ($V$) across a resistor is directly proportional to the current ($I$) flowing through it:
     """)
     st.markdown(r"""
-<div style="text-align: center;">
 $$
 V = IR
 $$
-</div>
-    """, unsafe_allow_html=True)
+    """)
     st.markdown(r"""
 where:  
 - $V$ is the voltage (in volts),  
@@ -153,12 +151,10 @@ where:
 The power dissipated by a resistor (i.e., the rate at which energy is converted to heat) can be calculated by:
     """)
     st.markdown(r"""
-<div style="text-align: center;">
 $$
 P = I^2 R \quad \text{or} \quad P = \frac{V^2}{R}
 $$
-</div>
-    """, unsafe_allow_html=True)
+    """)
     st.markdown(r"""
 where:  
 - $P$ is the power (in watts, W).
@@ -171,12 +167,10 @@ where:
 The gravitational force on an object near the Earth's surface is given by:
     """)
     st.markdown(r"""
-<div style="text-align: center;">
 $$
 F_g = mg
 $$
-</div>
-    """, unsafe_allow_html=True)
+    """)
     st.markdown(r"""
 where:  
 - $m$ is the mass of the object (in kilograms),  
@@ -187,12 +181,10 @@ where:
 The gravitational potential energy ($U$) of an object at a height $h$ above a reference point is:
     """)
     st.markdown(r"""
-<div style="text-align: center;">
 $$
 U = mgh
 $$
-</div>
-    """, unsafe_allow_html=True)
+    """)
     st.markdown(r"""
 where:  
 - $U$ is the potential energy (in joules, J),  
