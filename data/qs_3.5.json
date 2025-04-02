@@ -1,13 +1,13 @@
 {
   "Q3a": {
     "text": "Q3a: Calculate the average induced EMF in the circular loop (radius 10 cm, resistance 10 Ω) during the rising portion of the magnetic field.",
-    "unit": "V",
-    "answer": 0.00471
+    "unit": "mV",
+    "answer": 4.71239
   },
   "Q3b": {
     "text": "Q3b: Estimate the average current flowing through the loop.",
-    "unit": "A",
-    "answer": 0.000471
+    "unit": "micro A",
+    "answer": 471.239
   },
   "Q4a": {
     "text": "Q4a: A solenoid with 500 turns/m carries a current ramping from 0 A to 4.0 A in 0.20 s. The solenoid has a cross-sectional area of 20 cm². What is the voltmeter reading (in V) on a circular ring placed inside the solenoid during the current ramp-up?",
