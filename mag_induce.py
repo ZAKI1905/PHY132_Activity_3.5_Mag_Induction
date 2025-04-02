@@ -13,6 +13,7 @@ page = st.sidebar.radio("Select a page:", ["Answer Checker", "Background Informa
 if page == "Background Information":
     st.title("Background Information")
     
+# -----------------------------------------------------------    
     st.header("Magnetic Field Formulas and Explanations")
     st.markdown(r"""
     
@@ -71,7 +72,7 @@ where:
 This formula demonstrates that the field inside the solenoid increases with both the current and the turn density.
     """, unsafe_allow_html=True)
 
-
+# -----------------------------------------------------------
     st.header("Electromagnetic Induction")
     st.markdown(r"""**Faraday’s Law of Induction**  
 When the magnetic flux through a circuit changes, an electromotive force (EMF) is induced in the circuit. This is given by:""")
@@ -114,6 +115,7 @@ $$
 Lenz’s Law states that the induced current will flow in such a direction that its magnetic field opposes the change in the magnetic flux that produced it. This is why the negative sign appears in Faraday’s Law.
     """, unsafe_allow_html=True)
     
+# -----------------------------------------------------------
     st.header("Centripetal Force")
     st.markdown(r"""When a particle moves in a circular path, a centripetal force is required to keep it in circular motion. This force is given by:""")
     st.markdown(r"""$F_c = \frac{mv^2}{r}$
@@ -126,7 +128,80 @@ Lenz’s Law states that the induced current will flow in such a direction that 
 
 This force is always directed toward the center of the circle.
     """, unsafe_allow_html=True)
-
+    
+# -----------------------------------------------------------
+    st.header("Ohm's Law and Power Dissipation")
+    st.markdown(r"""
+**Ohm's Law**  
+Ohm's Law states that the voltage ($V$) across a resistor is directly proportional to the current ($I$) flowing through it:
+    """)
+    st.markdown(r"""
+<div style="text-align: center;">
+$$
+V = IR
+$$
+</div>
+    """, unsafe_allow_html=True)
+    st.markdown(r"""
+where:  
+- $V$ is the voltage (in volts),  
+- $I$ is the current (in amperes), and  
+- $R$ is the resistance (in ohms, $\Omega$).
+    """, unsafe_allow_html=True)
+    st.markdown(r"""
+**Power Dissipation in Resistors**  
+The power dissipated by a resistor (i.e., the rate at which energy is converted to heat) can be calculated by:
+    """)
+    st.markdown(r"""
+<div style="text-align: center;">
+$$
+P = I^2 R \quad \text{or} \quad P = \frac{V^2}{R}
+$$
+</div>
+    """, unsafe_allow_html=True)
+    st.markdown(r"""
+where:  
+- $P$ is the power (in watts, W).
+    """, unsafe_allow_html=True)
+    
+# -----------------------------------------------------------
+    st.header("Gravitational Force and Potential Energy")
+    st.markdown(r"""
+**Gravitational Force**  
+The gravitational force on an object near the Earth's surface is given by:
+    """)
+    st.markdown(r"""
+<div style="text-align: center;">
+$$
+F_g = mg
+$$
+</div>
+    """, unsafe_allow_html=True)
+    st.markdown(r"""
+where:  
+- $m$ is the mass of the object (in kilograms),  
+- $g$ is the acceleration due to gravity (approximately $9.81\,\text{m/s}^2$).
+    """, unsafe_allow_html=True)
+    st.markdown(r"""
+**Gravitational Potential Energy**  
+The gravitational potential energy ($U$) of an object at a height $h$ above a reference point is:
+    """)
+    st.markdown(r"""
+<div style="text-align: center;">
+$$
+U = mgh
+$$
+</div>
+    """, unsafe_allow_html=True)
+    st.markdown(r"""
+where:  
+- $U$ is the potential energy (in joules, J),  
+- $h$ is the height (in meters),  
+- $m$ is the mass, and  
+- $g \approx 9.81\,\text{m/s}^2$.
+    """, unsafe_allow_html=True)
+    
+# -----------------------------------------------------------
     st.header("Units")
     st.markdown(r"""
 Magnetic field strength is commonly measured in **Gauss (G)** in the CGS system.  
@@ -136,6 +211,7 @@ $$
 The Tesla (T) is the SI unit for magnetic field strength.
     """, unsafe_allow_html=True)
     
+ # -----------------------------------------------------------   
     st.header("Particle Properties")
     st.markdown(r"""
 - **Electron:**  
