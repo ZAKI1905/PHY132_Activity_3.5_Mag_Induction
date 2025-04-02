@@ -85,8 +85,13 @@
     "answer": 0.362
   },
   "Q7b": {
-    "text": "Q7b: Based on the induced EMF and a circuit resistance of 5.0 Ω, calculate (i) the average current in the secondary circuit and (ii) the charging time (in hours) for a 500 mAh battery.",
-    "unit": "A, hours",
-    "answer": [0.0724, 6.91]
+    "text": "Q7b:Calculate the average current in the secondary circuit.",
+    "unit": "mA",
+    "answer": 72.4
+  }
+    "Q7c": {
+    "text": "Q7c: Estimate how many hours would it take to fully charge the toothbrush.",
+    "unit": "hours",
+    "answer": 6.91
   }
 }
