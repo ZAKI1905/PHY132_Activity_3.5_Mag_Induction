@@ -86,12 +86,10 @@ The negative sign indicates the direction of the induced EMF as given by Lenz's 
 The magnetic flux through a loop of area $A$ is defined as:
     """)
     st.markdown(r"""
-<div style="text-align: center;">
 $$
 \Phi_B = B \, A \, \cos\theta
 $$
-</div>
-    """, unsafe_allow_html=True)
+    """)
     st.markdown(r"""where:  
 - $B$ is the magnetic field strength,  
 - $A$ is the area of the loop,  
