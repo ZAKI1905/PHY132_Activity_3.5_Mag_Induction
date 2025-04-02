@@ -1,6 +1,6 @@
 {
   "Q3a": {
-    "text": "Q3a: Calculate the average induced EMF in the circular loop (radius 10 cm, resistance 10 Ω) during the rising portion of the magnetic field (which increases linearly from 0 to 0.3 T in 2 s).",
+    "text": "Q3a: Calculate the average induced EMF in the circular loop (radius 10 cm, resistance 10 Ω) during the rising portion of the magnetic field.",
     "unit": "V",
     "answer": 0.00471
   },
