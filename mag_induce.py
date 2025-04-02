@@ -20,9 +20,9 @@ if page == "Background Information":
     The vacuum permeability ($\mu_0$) characterizes the ability of free space to support a magnetic field. Its standard value is:""")
 
     st.markdown(r"""  
-    $
+    $$
     \mu_0 = 1.25663706127 \times 10^{-6}\, \text{N/A}^2.
-    $
+    $$
 
 **Long Straight Wire**  
 A long straight wire carrying a current $I$ produces a magnetic field that encircles the wire and decreases with distance. The magnetic field at a distance $r$ is given by:""")
@@ -30,9 +30,9 @@ A long straight wire carrying a current $I$ produces a magnetic field that encir
     # diagram_path = f"https://github.com/ZAKI1905/PHY132_Activity_3.4_Mag_Configs/main/data/figs/B_field_wire.jpg"
     st.image("data/figs/B_field_wire.jpg", caption="Magnetic Field Orientation: Long Straight Wire", use_container_width=True)
     st.markdown(r"""      
-$
+$$
 B = \frac{\mu_0 I}{2 \pi r}
-$
+$$
 
 where:  
 - $I$ is the current in amperes (A).  
@@ -44,9 +44,9 @@ This formula shows that the magnetic field is inversely proportional to the dist
 A circular loop of wire carrying a current $I$ produces a magnetic field at its center given by:""")
     st.image("data/figs/B_field_loop.jpg", caption="Magnetic Field Orientation: Circular Loop", use_container_width=True)
     st.markdown(r"""
-$
+$$
 B = \frac{\mu_0 I}{2R}
-$
+$$
 
 where:  
 - $R$ is the radius of the loop in meters (m).
