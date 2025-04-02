@@ -64,6 +64,42 @@ where:
 This formula demonstrates that the field inside the solenoid increases with both the current and the turn density.
     """, unsafe_allow_html=True)
 
+
+     st.header("Electromagnetic Induction")
+    st.markdown(r"""**Faraday’s Law of Induction**  
+When the magnetic flux through a circuit changes, an electromotive force (EMF) is induced in the circuit. This is given by:""")
+    st.markdown(r"""
+<div style="text-align: center;">
+$$
+\varepsilon = -\frac{d\Phi_B}{dt}
+$$
+</div>
+    """, unsafe_allow_html=True)
+    st.markdown(r"""where:  
+- $\varepsilon$ is the induced EMF,  
+- $\Phi_B$ is the magnetic flux through the circuit.
+
+The negative sign indicates the direction of the induced EMF as given by Lenz's Law.
+    """, unsafe_allow_html=True)
+    st.markdown(r"""**Magnetic Flux ($\Phi_B$)**  
+The magnetic flux through a loop of area $A$ is defined as:
+    """)
+    st.markdown(r"""
+<div style="text-align: center;">
+$$
+\Phi_B = B \, A \, \cos\theta
+$$
+</div>
+    """, unsafe_allow_html=True)
+    st.markdown(r"""where:  
+- $B$ is the magnetic field strength,  
+- $A$ is the area of the loop,  
+- $\theta$ is the angle between the magnetic field and the normal (perpendicular) to the loop's surface.
+    """, unsafe_allow_html=True)
+    st.markdown(r"""**Lenz's Law**  
+Lenz’s Law states that the induced current will flow in such a direction that its magnetic field opposes the change in the magnetic flux that produced it. This is why the negative sign appears in Faraday’s Law.
+    """, unsafe_allow_html=True)
+    
     st.header("Centripetal Force")
     st.markdown(r"""When a particle moves in a circular path, a centripetal force is required to keep it in circular motion. This force is given by:""")
     st.markdown(r"""$F_c = \frac{mv^2}{r}$
