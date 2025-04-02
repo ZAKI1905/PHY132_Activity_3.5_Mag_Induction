@@ -14,7 +14,8 @@ if page == "Background Information":
     st.title("Background Information")
     
     st.header("Magnetic Field Formulas and Explanations")
-    st.markdown(r"""**Vacuum Permeability ($\mu_0$)** $\mu_0$ is the vacuum permeability, which characterizes the ability of free space to support a magnetic field. Its standard value is:""")
+    st.markdown(r"""**Vacuum Permeability ($\mu_0$)** 
+    $\mu_0$ is the vacuum permeability, which characterizes the ability of free space to support a magnetic field. Its standard value is:""")
 
     st.markdown(r"""  
     $
