@@ -88,7 +88,7 @@
     "text": "Q7b:Calculate the average current in the secondary circuit.",
     "unit": "mA",
     "answer": 72.4
-  }
+  },
   "Q7c": {
     "text": "Q7c: Estimate how many hours would it take to fully charge the toothbrush.",
     "unit": "hours",
