@@ -82,8 +82,11 @@ $$
 
 The negative sign indicates the direction of the induced EMF as given by Lenz's Law.
     """, unsafe_allow_html=True)
-    st.image("data/figs/faraday_anim.gif")
-    
+    # st.image("data/figs/faraday_anim.gif")
+    col1, col2, col3 = st.columns(3)
+    with col2:
+        st.image("data/figs/faraday_anim.gif")
+        
     st.markdown(r"""**Magnetic Flux ($\Phi_B$)**  
 The magnetic flux through a loop of area $A$ is defined as:
     """)
