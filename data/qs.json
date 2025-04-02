@@ -1,1 +1,82 @@
-
+{
+  "Q3a": {
+    "text": "Q3a: Calculate the average induced EMF in the circular loop (radius 10 cm, resistance 10 Ω) during the rising portion of the magnetic field (which increases linearly from 0 to 0.3 T in 2 s).",
+    "unit": "V",
+    "answer": 0.00471
+  },
+  "Q3b": {
+    "text": "Q3b: Estimate the average current flowing through the loop.",
+    "unit": "A",
+    "answer": 0.000471
+  },
+  "Q4a": {
+    "text": "Q4a: A solenoid with 500 turns/m carries a current ramping from 0 A to 4.0 A in 0.20 s. The solenoid has a cross-sectional area of 20 cm². What is the voltmeter reading (in V) on a circular ring placed inside the solenoid during the current ramp-up?",
+    "unit": "V",
+    "answer": 2.51e-5
+  },
+  "Q5a": {
+    "text": "Q5a: A rectangular loop is being pulled to the right at 3 m/s while partially in a 0.25 T magnetic field (with the vertical dimension of the loop being 6 cm). Calculate the induced EMF in the loop.",
+    "unit": "V",
+    "answer": 0.045
+  },
+  "Q6a": {
+    "text": "Q6a: A conducting bar slides along rails in a uniform 1.2 T magnetic field. The rails are 40 cm apart and the bar moves at 2.0 m/s. Calculate the induced EMF across the bar.",
+    "unit": "V",
+    "answer": 0.96
+  },
+  "Q6b": {
+    "text": "Q6b: Determine the magnitude of the induced current in the circuit (the resistor is 10 Ω).",
+    "unit": "A",
+    "answer": 0.096
+  },
+  "Q6c": {
+    "text": "Q6c: Compute the power dissipated in the resistor.",
+    "unit": "W",
+    "answer": 0.09216
+  },
+  "Q6e": {
+    "text": "Q6e: Find the magnetic force acting on the sliding bar.",
+    "unit": "N",
+    "answer": 0.04608
+  },
+  "Q6f": {
+    "text": "Q6f: What is the external force required to maintain the bar’s constant velocity?",
+    "unit": "N",
+    "answer": 0.04608
+  },
+  "Q6g": {
+    "text": "Q6g: Calculate the mechanical power delivered by the pulling force.",
+    "unit": "W",
+    "answer": 0.09216
+  },
+  "Q6h": {
+    "text": "Q6h: When the setup is vertical and the bar falls at 10 m/s, estimate the minimum mass the bar must have.",
+    "unit": "kg",
+    "answer": 0.0235
+  },
+  "Q6i": {
+    "text": "Q6i: Find the induced current when the bar falls vertically at 10 m/s.",
+    "unit": "A",
+    "answer": 0.48
+  },
+  "Q6j": {
+    "text": "Q6j: Calculate the total thermal energy generated in the resistor while the bar falls 2 m at constant speed.",
+    "unit": "J",
+    "answer": 0.4608
+  },
+  "Q6k": {
+    "text": "Q6k: Determine the change in gravitational potential energy as the bar falls 2 m.",
+    "unit": "J",
+    "answer": 0.4606
+  },
+  "Q7a": {
+    "text": "Q7a: In an electric toothbrush, the secondary coil (N = 200 turns, radius 1.2 cm) experiences a linearly rising magnetic field (from 0 to 0.01 T over 2.5 ms). Estimate the magnitude of the induced EMF during the rising phase.",
+    "unit": "V",
+    "answer": 0.362
+  },
+  "Q7b": {
+    "text": "Q7b: Based on the induced EMF and a circuit resistance of 5.0 Ω, calculate (i) the average current in the secondary circuit and (ii) the charging time (in hours) for a 500 mAh battery.",
+    "unit": "A, hours",
+    "answer": [0.0724, 6.91]
+  }
+}
