@@ -10,7 +10,7 @@
     "answer": 471.239
   },
   "Q4a": {
-    "text": "Q4a: A solenoid with 500 turns/m carries a current ramping from 0 A to 4.0 A in 0.20 s. The solenoid has a cross-sectional area of 20 cm². What is the voltmeter reading (in \U+03BC V) on a circular ring placed inside the solenoid during the current ramp-up?",
+    "text": "Q4a: A solenoid with 500 turns/m carries a current ramping from 0 A to 4.0 A in 0.20 s. The solenoid has a cross-sectional area of 20 cm². What is the voltmeter reading (in \\U+03BC V) on a circular ring placed inside the solenoid during the current ramp-up?",
     "unit": "micro V",
     "answer": 25.132
   },
