@@ -20,9 +20,9 @@ if page == "Background Information":
     The vacuum permeability ($\mu_0$) characterizes the ability of free space to support a magnetic field. Its standard value is:""")
 
     st.markdown(r"""  
-    $$
+    $
     \mu_0 = 1.25663706127 \times 10^{-6}\, \text{N/A}^2.
-    $$
+    $
 
 **Long Straight Wire**  
 A long straight wire carrying a current $I$ produces a magnetic field that encircles the wire and decreases with distance. The magnetic field at a distance $r$ is given by:""")
@@ -72,12 +72,10 @@ This formula demonstrates that the field inside the solenoid increases with both
     st.markdown(r"""**Faraday’s Law of Induction**  
 When the magnetic flux through a circuit changes, an electromotive force (EMF) is induced in the circuit. This is given by:""")
     st.markdown(r"""
-<div style="text-align: center;">
 $$
-\varepsilon = -\frac{d\Phi_B}{dt}
+\varepsilon = -\frac{\Delta\Phi_B}{\Delta t}
 $$
-</div>
-    """, unsafe_allow_html=True)
+    """)
     st.markdown(r"""where:  
 - $\varepsilon$ is the induced EMF,  
 - $\Phi_B$ is the magnetic flux through the circuit.
