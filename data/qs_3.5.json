@@ -12,7 +12,7 @@
   "Q4a": {
     "text": "Q4a: A solenoid with 500 turns/m carries a current ramping from 0 A to 4.0 A in 0.20 s. The solenoid has a cross-sectional area of 20 cm². What is the voltmeter reading (in μV) on a circular ring placed inside the solenoid during the current ramp-up?",
     "unit": "μV",
-    "answer": 25.132
+    "answer": 63.1636
   },
   "Q5a": {
     "text": "Q5a: A rectangular loop is being pulled to the right at 3 m/s while partially in a 0.25 T magnetic field (with the vertical dimension of the loop being 6 cm). Calculate the induced EMF in the loop.",
